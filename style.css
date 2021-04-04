@@ -1,0 +1,117 @@
+body{
+background-image: url(images/background-image.jpg);
+color: #575F7D;
+font-family: 'Lora', serif;
+font-size: 17px;
+font-weight: lighter;
+}
+h1, h2, h3 {
+font-family: 'Roboto', sans-serif;
+}
+h1{
+color: #4d4646;
+ font-weight: 300;
+ letter-spacing: 10px;
+ font-size: 32px;
+ text-transform: uppercase;
+}
+h2 {
+color: #e1866b;
+ font-weight: 500;
+ letter-spacing: 5px;
+ font-size: 20px;
+ text-transform: uppercase;
+}
+a {
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+color: #6B72E1;
+font-weight: 600;
+font-size: 17px;
+}
+a:hover {
+color: black;
+}
+/*Custom design with class (99% of your design) */
+.container {
+width: 700px;
+margin: 10px auto;
+}@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+.img-circle {
+border-radius: 50%
+}
+.btn-blue {
+background: #e1866b;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+.btn-blue:hover {
+background-color: black;
+color: white;
+}
+.btndance-blue:hover {
+background-color: gold;
+color: white;
+}
+.btndance-blue {background: #575f7d70;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+.btngastronomy-blue {
+background: #575f7d70;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+.btngastronomy-blue:hover {
+background-color: gold;
+color: white;
+}
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li{
+display: inline;
+padding: 0px;
+}
+.list-inline i{
+font-size: 50px;
+color: rgb(230,230,230);
+}
+.list-inline i:hover {
+font-size: 80px;
+color: black;
+}
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+margin-bottom: 40px;
+}
+#gastronomybtn p{
+margin: 20px
+}#dancingbtn p{
+margin: 20px
